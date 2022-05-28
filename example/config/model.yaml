@@ -1,7 +1,7 @@
 path: './data'
 
 text_sim_reco:
-  lang : 'ko'
+  lang : 'en'
   reco_Item_number : 3
   ratio: 0.3
 

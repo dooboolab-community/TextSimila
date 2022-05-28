@@ -1,6 +1,10 @@
-- [Text Similarity Recommendation System](#text-similarity-recommendation-system)
+
+# Text Similarity Recommendation System
+This is a repository for Item RecSys models in Python. You can get the similar Items based on text similarity as follows.
+
+- [Data Description](#data-description)
 - [Process](#process)
-- [Use this repo in your own environment](#use-this-repo-in-your-own-environment)
+- [Installation](#installation)
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
   * [Example notebooks](#example-notebooks)
@@ -14,14 +18,10 @@
     + [Execute the file](#execute-the-file)
       - [To predict with newly-trained model](#to-predict-with-newly-trained-model)
       - [To predict with Pre-trained model](#to-predict-with-pre-trained-model)
-- [References](#references)
 
-# Text Similarity Recommendation System
-This is a repository for Item RecSys models in Python. You can get the similar Items based on text similarity as follows.
+---
 
-
-### Data Description
-
+# Data Description
 #### Input
 This model recommends items that are highly related to each item in `Items`, which means the source of the recommended items is also `Items`. If you add some text data related to the corresponding `Items` to `related_to_Items`(e.g., Items description, category, etc.), it helps to increase the model accuracy. 
 
@@ -107,17 +107,11 @@ cos(emb_A,emb_B) = \frac{emb_A\cdot emb_B}{
 $$
 
 
-# Use this repo in your own environment
+# Installation
 
 ```
-# With pip:
 pip install TextSimila
-
-# or clone this repo
-git clone https://github.com/dooboolab/TextSimila.git
 ```
-
-
 
 # Prerequisites
 python version should be greater than 3.7.x 
@@ -125,7 +119,6 @@ python version should be greater than 3.7.x
 ```
 pip install -r requirements.txt
 ```
-
 
 # Quick Start
 
@@ -304,9 +297,3 @@ $ python exe.py model.yaml sample_eng --saved True
 # If you want to use Pre-trained model for tokenization and embedding
 $ python exe.py model.yaml sample_eng -tok True -emb True
 ```
-
----
-
-
-
-# References

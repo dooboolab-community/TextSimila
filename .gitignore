@@ -12,6 +12,7 @@ data/data_add_search_20220401.json
 
 # Distribution / packaging
 .Python
+setup.py
 build/
 develop-eggs/
 dist/
