@@ -1,0 +1,8 @@
+ipykernel
+gensim==4.2.0
+soynlp
+nltk
+torch
+jupyter
+pyyaml
+argparse

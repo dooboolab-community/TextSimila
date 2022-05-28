@@ -1,0 +1,25 @@
+path: './data'
+
+text_sim_reco:
+  lang : 'ko'
+  reco_Item_number : 3
+  ratio: 0.3
+
+tokenize:
+  stopwords : None
+  extranouns : None
+  verbose: False
+  min_noun_frequency: 1
+  max_noun_frequency: 80
+  max_frequency_for_char: 20
+  min_noun_score: 0.1
+  extract_compound: False
+  model_name_tok: None
+
+embedding:
+  vector_size: 15
+  window: 3
+  min_count: 1
+  workers: 4
+  sg: 1
+  model_name_emb: None

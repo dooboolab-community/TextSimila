@@ -1,0 +1,27 @@
+[
+  {
+      "Items": "아이유 막방",
+      "related_to_Items": ["막방 공연", "아이유"]
+  },
+  {
+      "Items": "아이유 앵콜",
+      "related_to_Items": ["앵콜 실수", "아이유"]
+  },
+  {
+      "Items": "아이유 공연",
+      "related_to_Items": ["공연 콘서트 정보","아이유"]
+  },
+  {
+      "Items": "아이유 기타",
+      "related_to_Items": ["기타"]
+  },
+  {
+      "Items": "기타로 연주",
+      "related_to_Items": ["연주"]
+  },
+  {
+      "Items": "초보자를 위한 기타 레슨",
+      "related_to_Items": ["기타"]
+  }
+
+]

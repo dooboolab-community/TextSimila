@@ -1,0 +1,27 @@
+[
+  {
+      "Items": "Netflix movie",
+      "related_to_Items": ["movie top", "Netflix"]
+  },
+  {
+      "Items": "Netflix party",
+      "related_to_Items": ["party pricing", "Netflix"]
+  },
+  {
+      "Items": "Netflix top",
+      "related_to_Items": ["top TV shows',","Netflix"]
+  },
+  {
+      "Items": "Netflix ratings",
+      "related_to_Items": ["ratings"]
+  },
+  {
+      "Items": "rotten tomatoes ratings",
+      "related_to_Items": ["연주"]
+  },
+  {
+      "Items": "IMDb Top 250 Movie ratings",
+      "related_to_Items": ["ratings"]
+  }
+
+]
