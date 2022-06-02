@@ -67,7 +67,8 @@ IMDb Top 250 Movie ratings
 
 # Process
 
-<img src="./img/process.png" alt="image-20220518181200810" style="zoom:50%;" />
+![video-TextSimila drawio](https://user-images.githubusercontent.com/48239962/171642236-46d3cbfc-92ca-47e5-9c14-93c9a9a86463.png)
+
 
 **Tokenization**
 
