@@ -49,7 +49,7 @@ class Tokenize():
             raise AttributeError("language must be either 'ko' or 'en'")
 
         if lang == "en":
-            if not stopwords or not extranouns:
+            if stopwords or extranouns:
                 raise AttributeError("If you want to use English custom dataset, stopwords and extranouns must be None")
 
     
@@ -61,7 +61,9 @@ class Tokenize():
         self.model_path = './model'
         extension = 'pickle'
         
-
+        if not os.path.isdir(self.model_path):
+            os.mkdir(self.model_path)
+            
         # Korean custom dataset
         if self.lang=="ko":
 
@@ -93,8 +95,6 @@ class Tokenize():
                 self.nouns = nouns
                 
                 if self.saved==True:
-                    if not os.path.isdir(self.model_path):
-                        os.mkdir(self.model_path)
                     file_name = f'tokenized_nouns'
                     file_name = preprocess.getFileName(file_name, extension, self.model_path)
 
@@ -258,8 +258,8 @@ class Text_sim_reco():
             raise AttributeError(f"It does not support the language {lang}")
         
         if lang == "en":
-            if not stopwords or not extranouns:
-                raise AttributeError("If you want to use Korean custom dataset, stopwords and extranouns must be None")
+            if stopwords or extranouns:
+                raise AttributeError("If you want to use English custom dataset, stopwords and extranouns must be None")
 
     
     def get_params_token(self):
