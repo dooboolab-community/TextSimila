@@ -6,7 +6,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setuptools.setup(
     name="TextSimila",
-    version="0.0.5",
+    version="0.0.6",
     author="dooboolab",
     author_email="support@dooboolab.com",
     description="Text Similarity Recommendation System",
